@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/app_bar_search"
+        android:title="searchBar"
+        android:icon="@drawable/baseline_manage_search_24"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+</menu>
